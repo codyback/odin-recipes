@@ -1,6 +1,21 @@
 const recipes = [];
 
+const handleNavActiveClass = (recipeID) => {
+  for (let i = 0; i < recipes.length; i++) {
+    const recipe = recipes[i];
+
+    const recipeNavLinks = document.getElementById(`recipe${recipe.id}`);
+    if (recipe.id === recipeID) {
+      recipeNavLinks.classList.add('active');
+    } else {
+      recipeNavLinks.classList.remove('active');
+    }
+  }
+}
+
 const populateRecipe = (recipeID) => {
+  handleNavActiveClass(recipeID);
+
   const recipe = recipes.find(obj => obj.id === recipeID);
 
   const recipeNameContent = document.getElementById('recipeName');

@@ -5,7 +5,7 @@
     "name": "Chicken and Rice Casserole",
     "description": "Quick and easy, and the leftovers are just as good!",
     "image": {
-      "src": "./recipes/img/0001.jpg",
+      "src": "./img/0001.jpg",
       "alt": "A picture of Chicken and Rice Casserole"
     },
     "information": {
@@ -35,7 +35,7 @@
     "name": "Quick Chicken Piccata",
     "description": "These quick and easy pan-fried chicken breasts are topped with a simple pan sauce made with capers, butter, white wine, and lemon juice.",
     "image": {
-      "src": "./recipes/img/0002.jpg",
+      "src": "./img/0002.jpg",
       "alt": "A picture of Quick Chicken Piccata"
     },
     "information": {
@@ -73,7 +73,7 @@
     "name": "Lighter Chicken Fettuccine Alfredo",
     "description": "This version of chicken fettuccine alfredo is lightened by substituting some of the heavy cream with chicken broth.",
     "image": {
-      "src": "./recipes/img/0003.jpg",
+      "src": "./img/0003.jpg",
       "alt": "A picture of Lighter Chicken Fettuccine Alfredo"
     },
     "information": {
@@ -112,7 +112,7 @@
     "name": "Chicken Parmigiana",
     "description": "Homemade chicken parmesan, whether breaded and baked or pan-fried, is an easy dinner sure to please a crowd.",
     "image": {
-      "src": "./recipes/img/0004.jpg",
+      "src": "./img/0004.jpg",
       "alt": "A picture of Chicken Parmigiana"
     },
     "information": {
