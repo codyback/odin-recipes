@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #44475a;
+  color: #f8f8f2;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(0px, 160px) auto minmax(0px, 160px);
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+    '. area .'
+}
+
+body > #area {
+  grid-area: area;
+  background-color: #282a36;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'header header'
+    'nav main'
+    'footer footer';
+  box-shadow: 0 20px 40px 0px rgba(0, 0, 0, 0.4);
+}
+
+body > #area > header {
+  grid-area: header;
+  padding: 15px 5px 10px 5px;
+  text-align: center;
+}
+
+body > #area > main {
+  grid-area: main;
+  overflow: auto;
+  padding: 15px 5px 10px 5px;
+}
+
+body > #area > nav {
+  grid-area: nav;
+  overflow: auto;
+  padding: 10px;
+}
+
+body > #area > footer {
+  grid-area: footer;
+  padding: 15px 5px 10px 5px;
+  text-align: center;
+}
+
+h1 { 
+  color: #50fa7b;
+  font-weight: 800;
+}
+
+a {
+  color: #8be9fd;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:visited {
+  color: #bd93f9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
