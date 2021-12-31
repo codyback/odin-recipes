@@ -1,0 +1,19 @@
+{
+  "name": "odin-recipes",
+  "version": "1.0.0",
+  "description": "A basic recipes website for Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codyback/odin-recipes.git"
+  },
+  "author": "Cody Backus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codyback/odin-recipes/issues"
+  },
+  "homepage": "https://github.com/codyback/odin-recipes#readme"
+}

@@ -28,25 +28,53 @@ body > #area {
   box-shadow: 0 20px 40px 0px rgba(0, 0, 0, 0.4);
 }
 
-body > #area > header {
+#area > header {
   grid-area: header;
-  padding: 15px 5px 10px 5px;
+  padding: 5px;
+  text-align: center;
+  border-bottom: 2px  solid #44475a55;
+}
+
+#area > main {
+  grid-area: main;
+  overflow: auto;
+  padding: 15px;
+}
+
+main > h2 {
+  color: #ff79c6;
   text-align: center;
 }
 
-body > #area > main {
-  grid-area: main;
-  overflow: auto;
-  padding: 15px 5px 10px 5px;
-}
-
-body > #area > nav {
+#area > nav {
   grid-area: nav;
   overflow: auto;
-  padding: 10px;
+  padding: 0;
+  margin: 0;
 }
 
-body > #area > footer {
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li a{
+  display: block;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+nav > ul > li a:hover {
+  background-color: #44475a;
+}
+
+nav > ul > li a.active {
+  background-color: #6272a4;
+  color: #bd93f9;
+}
+
+#area > footer {
   grid-area: footer;
   padding: 15px 5px 10px 5px;
   text-align: center;
@@ -63,10 +91,6 @@ a {
   font-style: italic;
 }
 
-a:visited {
-  color: #bd93f9;
-}
-
 a:hover {
-  text-decoration: underline;
+  color: #bd93f9;
 }

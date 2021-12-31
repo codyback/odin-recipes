@@ -1,0 +1,139 @@
+{
+  "recipes": [
+  {
+    "id": "0001",
+    "name": "Chicken and Rice Casserole",
+    "description": "Quick and easy, and the leftovers are just as good!",
+    "image": {
+      "src": "./recipes/img/0001.jpg",
+      "alt": "A picture of Chicken and Rice Casserole"
+    },
+    "information": {
+      "prep": 10,
+      "cook": 60,
+      "additional": 10,
+      "total": 80,
+      "servings": 6
+    },
+    "ingredients": [
+      "3 chicken breasts, cut into cubes",
+      "2 cups water', '2 cups instant white rice",
+      "1 (10.75 ounce) can cream of chicken soup",
+      "1 (10.75 ounce) can cream of celery soup",
+      "1 (10.75 ounce) can cream of mushroom soup",
+      "salt and ground black pepper to taste",
+      "½ cup butter, sliced into pats"
+    ],
+    "directions": [
+      "Preheat oven to 400 degrees F (200 degrees C). Grease sides and bottom of a casserole dish.",
+      "Stir chicken, water, rice, cream of chicken soup, cream of celery soup, and cream of mushroom soup together in the prepared casserole dish; season with salt and pepper. Arrange butter evenly over the top of the chicken mixture.",
+      "Bake in preheated oven until the rice is tender and the chicken is cooked through, 1 hour to 75 minutes. Cool 15 minutes before serving."
+    ]
+  },
+  {
+    "id": "0002",
+    "name": "Quick Chicken Piccata",
+    "description": "These quick and easy pan-fried chicken breasts are topped with a simple pan sauce made with capers, butter, white wine, and lemon juice.",
+    "image": {
+      "src": "./recipes/img/0002.jpg",
+      "alt": "A picture of Quick Chicken Piccata"
+    },
+    "information": {
+      "prep": 10,
+      "cook": 15,
+      "additional": 0,
+      "total": 25,
+      "servings": 4
+  },
+    "ingredients": [
+      "4 skinless, boneless chicken breast halves",
+      "cayenne pepper, or to taste",
+      "salt and ground black pepper to taste",
+      "all-purpose flour for dredging",
+      "2 tablespoons olive oil",
+      "1 tablespoon capers, drained",
+      "½ cup white wine",
+      "¼ cup fresh lemon juice",
+      "¼ cup water",
+      "3 tablespoons cold unsalted butter, cut in 1/4-inch slices",
+      "2 tablespoons fresh Italian parsley, chopped"
+    ],
+    "directions": [
+      "Place chicken breasts between 2 layers of plastic wrap and pound to about 1/2-inch thick.",
+      "Season both sides of chicken breasts with cayenne, salt, and black pepper; dredge lightly in flour and shake off any excess.",
+      "Heat olive oil in a skillet over medium-high heat. Place chicken in the pan, reduce heat to medium, and cook until browned and cooked through, about 5 minutes per side; remove to a plate.",
+      "Cook capers in reserved oil, smashing them lightly to release brine, until warmed though, about 30 seconds.",
+      "Pour white wine into skillet. Scrape any browned bits from the bottom of the pan with a wooden spoon. Cook until reduced by half, about 2 minutes.",
+      "Stir lemon juice, water, and butter into the reduced wine mixture; cook and stir continuously to form a thick sauce, about 2 minutes. Reduce heat to low and stir parsley through the sauce.",
+      "Return chicken breasts to the pan cook until heated through, 1 to 2 minutes. Serve with sauce spooned over the top."
+    ]
+  },
+  {
+    "id": "0003",
+    "name": "Lighter Chicken Fettuccine Alfredo",
+    "description": "This version of chicken fettuccine alfredo is lightened by substituting some of the heavy cream with chicken broth.",
+    "image": {
+      "src": "./recipes/img/0003.jpg",
+      "alt": "A picture of Lighter Chicken Fettuccine Alfredo"
+    },
+    "information": {
+      "prep": 10,
+      "cook": 45,
+      "additional": 15,
+      "total": 70,
+      "servings": 6
+    },
+    "ingredients": [
+      "2 large boneless skinless chicken breasts",
+      "2 cups low-sodium chicken broth",
+      "4 cloves garlic, minced",
+      "ground black pepper to taste",
+      "2 cups heavy cream",
+      "2 egg yolks",
+      "salt to taste",
+      "1 pound fettuccine",
+      "1 sprig chopped fresh parsley",
+      "2 cups freshly grated Parmigiano-Reggiano cheese, divided"
+    ],
+    "directions": [
+      "Combine chicken breasts and chicken broth in a saucepan over medium-high heat. Bring to a boil, cover, and reduce heat to low; simmer for 5 minutes. Turn breasts, cover, and simmer another 5 minutes. Remove from heat and let sit with the cover on for 15 minutes.",
+      "Remove chicken breasts from the broth and set aside to cool, reserving the broth in the saucepan. Once the chicken is cool enough to handle, cut into bite-size slices.",
+      "Return the chicken broth to medium heat and cook until reduced to 1 cup.",
+      "Stir garlic, black pepper, and heavy cream into the reduced broth; bring to a simmer and remove from heat.",
+      "Whisk egg yolks in a bowl until smooth. Beat 1 tablespoon of the warm cream mixture into the eggs until thoroughly incorporated; repeat until about 1/2 cup of the warm cream mixture is used.",
+      "Whisk the warm cream and egg mixture back into the saucepan with the remaining cream mixture. Cook over medium-low heat, whisking constantly, until the mixture almost comes to a simmer and thickens, about 5 minutes. Season with salt and black pepper to taste.",
+      "Bring a large pot of lightly salted water to a boil. Cook fettuccine in boiling water, stirring occasionally, until nearly cooked through, about 7 minutes. Drain.",
+      "Stir parsley, 1 cup of Parmigiano-Reggiano, and cream mixture into the pasta. Remove from heat, cover, and let sit for a few minutes until thick.",
+      "Fold chicken and 1 cup Parmigiano-Reggiano into the pasta mixture to serve."
+    ]
+  },
+  {
+    "id": "0004",
+    "name": "Chicken Parmigiana",
+    "description": "Homemade chicken parmesan, whether breaded and baked or pan-fried, is an easy dinner sure to please a crowd.",
+    "image": {
+      "src": "./recipes/img/0004.jpg",
+      "alt": "A picture of Chicken Parmigiana"
+    },
+    "information": {
+      "prep": 30,
+      "cook": 60,
+      "additional": 0,
+      "total": 90,
+      "servings": 2
+    },
+    "ingredients": [
+      "1 egg, beaten",
+      "2 ounces dry bread crumbs",
+      "2 skinless, boneless chicken breast halves",
+      "¾ (16 ounce) jar spaghetti sauce",
+      "2 ounces shredded mozzarella cheese",
+      "¼ cup grated Parmesan cheese"
+    ],
+    "directions": [
+      "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a medium baking sheet.",
+      "Pour egg into a small shallow bowl. Place bread crumbs in a separate shallow bowl. Dip chicken into egg, then into the bread crumbs. Place coated chicken on the prepared baking sheet and bake in the preheated oven for 40 minutes, or until no longer pink and juices run clear.",
+      "Pour 1/2 of the spaghetti sauce into a 7x11 inch baking dish. Place chicken over sauce, and cover with remaining sauce. Sprinkle mozzarella and Parmesan cheeses on top and return to the preheated oven for 20 minutes."
+    ]
+  }
+]}
