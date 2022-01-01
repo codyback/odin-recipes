@@ -20,6 +20,7 @@ body > #area {
   margin: 0;
   height: 100%;
   display: grid;
+  overflow: auto;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
@@ -116,6 +117,10 @@ div#recipeMain {
   padding: 20px;
 }
 
+div#recipeMain li {
+  padding: 5px;
+}
+
 #area > nav {
   grid-area: nav;
   overflow: auto;
@@ -148,6 +153,7 @@ nav > ul > li a.active {
   grid-area: footer;
   padding: 15px 5px 10px 5px;
   text-align: center;
+  color: #6272a4;
 }
 
 h1 { 

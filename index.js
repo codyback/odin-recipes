@@ -26,10 +26,10 @@ const populateRecipe = (recipeID) => {
   const recipeNameContent = document.getElementById('recipeName');
   const recipeDescriptionContent = document.getElementById('recipeDescription');
   const recipeImgContent = document.getElementById('recipeImg');
-  const recipeInformationContent = document.getElementById('recipeInformation');
   const recipeInformationCol1 = document.getElementById('infoCol1');
   const recipeInformationCol2 = document.getElementById('infoCol2');
-  const recipeMainContent = document.getElementById('recipeMain');
+  const recipeIngredients = document.getElementById('recipeIngredients');
+  const recipeDirections = document.getElementById('recipeDirections');
 
   // updates html elements
   recipeNameContent.innerHTML = recipe.name;
@@ -38,6 +38,8 @@ const populateRecipe = (recipeID) => {
   recipeImgContent.alt = recipe.image.alt;
   recipeInformationCol1.innerHTML = '';
   recipeInformationCol2.innerHTML = '';
+  recipeIngredients.innerHTML = '';
+  recipeDirections.innerHTML = '';
 
   const recipeInfoKeys = ['prep', 'cook', 'additional', 'total', 'servings'];
   for (let i = 0; i < recipeInfoKeys.length; i++) {
@@ -51,7 +53,12 @@ const populateRecipe = (recipeID) => {
     }
   }
 
-  recipeMainContent.innerHTML = recipe.ingredients[0];
+  for (let i = 0; i < recipe.ingredients.length; i += 1) {
+    recipeIngredients.innerHTML += `<li>${recipe.ingredients[i]}</li>`;
+  }
+  for (let i = 0; i < recipe.directions.length; i += 1) {
+    recipeDirections.innerHTML += `<li>${recipe.directions[i]}</li>`;
+  }
 }
 
 // fetches the recipes json data 
