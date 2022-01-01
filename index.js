@@ -45,7 +45,7 @@ const populateRecipe = (recipeID) => {
   for (let i = 0; i < recipeInfoKeys.length; i++) {
     const key = recipeInfoKeys[i];
 
-    recipeInformationCol1.innerHTML += `<li>${key} :</li>`;
+    recipeInformationCol1.innerHTML += `<li><em>${key.toUpperCase()} :</em></li>`;
     if (key !== 'servings') {
       recipeInformationCol2.innerHTML += `<li>${recipe.information[key]} mins</li>`;
     } else {
